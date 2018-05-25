@@ -1,0 +1,31 @@
+{
+  "name": "mattermoster",
+  "version": "0.0.1",
+  "description": "Node.js + Express base API for Mattermost slash command integrations",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/swordf1zh/mattermoster.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mattermost",
+    "slack",
+    "integration",
+    "slash-commands"
+  ],
+  "author": "Ricardo Tribaldos <ricardo@baru.studio> (http://baru.studio)",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "express": "^4.16.3",
+    "http-errors": "^1.6.3",
+    "i18n": "^0.8.3",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
