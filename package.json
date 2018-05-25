@@ -8,6 +8,8 @@
     "url": "https://github.com/swordf1zh/mattermoster.git"
   },
   "scripts": {
+    "start": "node ./bin/www",
+    "dev": "SET DEBUG=mattermoster:* i18n:* && nodemon ./bin/www",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
